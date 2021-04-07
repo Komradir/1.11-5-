@@ -19,7 +19,10 @@ public class Main5 {
         for (int  [] arrayOneD : arrayTwoD) {
 
             Arrays.sort(arrayOneD);
-            int p1 = arrayTwoD[0][0];
+            System.out.println(arrayOneD);
+
+            }
+             int p1 = arrayTwoD[0][0];
         int a1 = arrayTwoD[0][7];
         int s1 = arrayTwoD[1][0];
         int d1 = arrayTwoD[1][7];
@@ -31,8 +34,7 @@ public class Main5 {
         int l1 = arrayTwoD[4][7];
         int z1 = arrayTwoD[5][0];
         int x1 = arrayTwoD[5][7];
-
-            }
+    
 
         int [][] mas = {
             {p1,a1},
@@ -42,6 +44,6 @@ public class Main5 {
             {k1,l1},
             {z1,x1},
         };
-        System.out.println(mas);
+        System.out.println();
         }
     }
